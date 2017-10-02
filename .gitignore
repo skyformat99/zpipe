@@ -1,0 +1,39 @@
+#
+# Normal rules
+#
+.*
+*.o
+*.o.*
+*.a
+*.s
+*.ko
+*.so
+*.so.dbg
+*.mod.c
+*.elf
+*.bin
+*.tar
+*.gz
+*.bz2
+*.lzma
+*.xz
+*.lz4
+*.lzo
+#*.patch
+*.gcno
+*.orig
+*.rej
+*~
+\#*#
+
+#
+# Top-level generic files
+#
+zpipe
+
+#
+# git files that we don't want to ignore even if they are dot-files
+#
+!.gitignore
+
+

@@ -1,0 +1,24 @@
+
+# To make this program:
+make
+
+# To install this program:
+make install
+
+# To do a build clean:
+make clean
+
+# Program Usage
+
+zpipe usage: zpipe [-zxd] < source > dest
+             -d  = decompress
+             -z  = gzip
+             -h  = usage
+
+# To install tis program
+make install
+
+# To uninstall tis program
+make uninstall
+
+
