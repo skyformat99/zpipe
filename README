@@ -1,4 +1,3 @@
-
 # To make this program:
 make
 
@@ -15,10 +14,33 @@ zpipe usage: zpipe [-zxd] < source > dest
              -z  = gzip
              -h  = usage
 
-# To install tis program
+# Compression Example
+To compress using gzip format with an
+imput file and output file.
+
+zpipe -z < infile.text > outfile.gz
+
+To compress using zlib deflate format with an
+imput file and output file.
+
+zpipe < infile.text > outfile.z
+
+# Decompression Example
+To decompress using gzip format with an
+imput file and output file.
+
+zpipe -d -z < infile.gz > outfile.text
+
+To compress using zlib deflate format with an
+imput file and output file.
+
+zpipe -d < infile.z > outfile.text
+
+
+# To install this program
 make install
 
-# To uninstall tis program
+# To uninstall this program
 make uninstall
 
 
